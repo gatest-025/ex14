@@ -1,9 +1,8 @@
 name: Node.js C
 
-
 on:
   workflow_dispatch:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
