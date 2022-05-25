@@ -27,8 +27,7 @@ jobs:
         with:
           name: output-log-file
           path: /home/runner/work/ex14/ex14/reports/awesome-reports/mochawesome.html
-      - name: 
-        uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v3
         with:
           name: output-log-file
 
